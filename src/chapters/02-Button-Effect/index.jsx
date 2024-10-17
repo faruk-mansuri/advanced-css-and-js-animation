@@ -1,19 +1,20 @@
-import RotatingButton from './01-rotating-effect';
-import SwipeButton from './02-SwipeButton';
-import ButtonHoverEffect from './03-ButtonHoverEffect';
-import ButtonStretching from './04-ButtonStretching';
-import SwipeButtonPart2 from './05-SwipeButtonPart2';
-import ButtonGlowingEffect from './06-ButtonGlowingEffect';
-import TwoLayerSwapping from './07-TwoLayerSwapping';
-import TextScaling from './08-TextScaling';
-import CircularSwappingButton from './09-CircularSwappingButton';
-import ThreeLayoutButton from './10-ThreeLayoutButton';
-import LayersSwappingEffect from './11-LayersSwappingEffect';
-import ThreeCircleBackgroundEffect from './12-ThreeCircleBackgroundEffect';
-import ButtonHoverEffectPartTwo from './13-ButtonHoverEffect';
-import SplitButton from './14-SplitButton';
-import BorderSwappingButton from './15-BorderSwappingButton';
-import GrowingButton from './16-GrowingButton';
+import RotatingButton from './01-rotating-effect'
+import SwipeButton from './02-SwipeButton'
+import ButtonHoverEffect from './03-ButtonHoverEffect'
+import ButtonStretching from './04-ButtonStretching'
+import SwipeButtonPart2 from './05-SwipeButtonPart2'
+import ButtonGlowingEffect from './06-ButtonGlowingEffect'
+import TwoLayerSwapping from './07-TwoLayerSwapping'
+import TextScaling from './08-TextScaling'
+import CircularSwappingButton from './09-CircularSwappingButton'
+import ThreeLayoutButton from './10-ThreeLayoutButton'
+import LayersSwappingEffect from './11-LayersSwappingEffect'
+import ThreeCircleBackgroundEffect from './12-ThreeCircleBackgroundEffect'
+import ButtonHoverEffectPartTwo from './13-ButtonHoverEffect'
+import SplitButton from './14-SplitButton'
+import BorderSwappingButton from './15-BorderSwappingButton'
+import GrowingButton from './16-GrowingButton'
+import FirstLetterRotating from './17-FirstLetterRotating'
 
 const ButtonLayout = () => {
   return (
@@ -37,9 +38,10 @@ const ButtonLayout = () => {
         <SplitButton />
         <BorderSwappingButton />
         <GrowingButton />
+        <FirstLetterRotating />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ButtonLayout;
+export default ButtonLayout
