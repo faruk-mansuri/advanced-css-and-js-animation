@@ -65,4 +65,4 @@ export default {
     // require('tailwindcss-3d')({ legacy: true }),
     require('@xpd/tailwind-3dtransforms'),
   ],
-};
+}

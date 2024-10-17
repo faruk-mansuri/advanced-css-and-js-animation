@@ -15,6 +15,11 @@ import SplitButton from './14-SplitButton'
 import BorderSwappingButton from './15-BorderSwappingButton'
 import GrowingButton from './16-GrowingButton'
 import FirstLetterRotating from './17-FirstLetterRotating'
+import BorderGrowing from './18-BorderGrowing'
+import TwoCutButton from './19-TwoCutButton'
+import TwoPartSkewed from './20-TwoPartSkewed'
+import PulsingButton from './21-PulsingButton'
+import DiagonalSwipeButton from './22-DiagonalSwipeButton'
 
 const ButtonLayout = () => {
   return (
@@ -39,6 +44,11 @@ const ButtonLayout = () => {
         <BorderSwappingButton />
         <GrowingButton />
         <FirstLetterRotating />
+        <BorderGrowing />
+        <TwoCutButton />
+        <TwoPartSkewed />
+        <PulsingButton />
+        <DiagonalSwipeButton />
       </div>
     </div>
   )
