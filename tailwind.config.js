@@ -4,12 +4,24 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      // backgroundColor doesn’t support gradients directly. Instead, you should extend the backgroundImage property.
+      backgroundImage: {
+        'glassMorphism-before':
+          'linear-gradient(to left, rgba(255, 255, 255, 0.149), transparent)',
+      },
       boxShadow: {
         'custom-shadow-left': '-100px 0 0 #eab308',
         'hover-custom-shadow-left': '30px 0 0 #eab308',
         'custom-shadow-right': '100px 0 0 #eab308',
         'hover-custom-shadow-right': '-30px 0 0 #eab308',
         // position from element, vertical distance, blur effect, color
+        'line-shadow-button':
+          '0 0 10px #1e40af, 0 0 30px #1e40af, 0 0 60px #1e40af',
+        'line-shadow-arrow':
+          '0 0 10px #1e40af, 0 0 20px #1e40af, 0 0 30px #1e40af, 0 0 50px #1e40af, 0 0 100px #1e40af',
+        'glass-morphism': '0 15px 35px rgba(0,0,0,0.2)',
+        'glass-morphism-back-shadow':
+          '0 0 5px #f43f5e, 0 0 15px #f43f5e, 0 0 30px #f43f5e, 0 0 60px #f43f5e',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -65,4 +77,4 @@ export default {
     // require('tailwindcss-3d')({ legacy: true }),
     require('@xpd/tailwind-3dtransforms'),
   ],
-}
+};

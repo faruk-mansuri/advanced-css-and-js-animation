@@ -41,11 +41,11 @@ const ThreeLayoutButton = () => {
        after:rounded-md
        after:transition-all
        after:duration-1000
-       after:rotate-y-[270deg]
-       after:origin-left
+       after:rotate-x-[270deg]
+       after:origin-top
 
        hover:before:rotate-x-0
-       hover:after:rotate-y-0
+       hover:after:rotate-x-0
 
    `}
     >
