@@ -4,6 +4,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      transitionDelay: {
+        1200: '1200ms',
+      },
       // backgroundColor doesn’t support gradients directly. Instead, you should extend the backgroundImage property.
       backgroundImage: {
         'glassMorphism-before':
