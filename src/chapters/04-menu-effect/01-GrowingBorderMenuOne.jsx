@@ -1,7 +1,7 @@
-import React from 'react';
-import { navLinks } from '@/utils';
+import React from 'react'
+import { navLinks } from '@/utils'
 
-const GrowingBorderMenu = () => {
+const GrowingBorderMenuOne = () => {
   return (
     <ul className='p-0 m-0 flex justify-center flex-wrap gap-4'>
       {navLinks.map((label, index) => {
@@ -47,10 +47,10 @@ const GrowingBorderMenu = () => {
               {label}
             </a>
           </li>
-        );
+        )
       })}
     </ul>
-  );
-};
+  )
+}
 
-export default GrowingBorderMenu;
+export default GrowingBorderMenuOne
