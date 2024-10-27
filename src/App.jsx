@@ -6,8 +6,8 @@ import MenuEffectLayout from './chapters/04-menu-effect';
 const App = () => {
   return (
     <div className='p-8 min-h-screen w-full bg-[#1D1D1D]'>
-      {/* <ButtonLayout /> */}
-      {/* <ImageEffectLayout /> */}
+      <ButtonLayout />
+      <ImageEffectLayout />
       <MenuEffectLayout />
     </div>
   );
