@@ -25,6 +25,7 @@ const CursorMenuAnimation = () => {
                 uppercase
                 tracking-widest
                 relative
+                font-extrabold
                 
                 text-transparent
                 [-webkit-text-stroke:1px_#64748b]

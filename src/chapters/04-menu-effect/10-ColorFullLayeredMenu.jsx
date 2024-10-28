@@ -40,7 +40,7 @@ const ColorFullLayeredMenu = () => {
                 before:left-0
                 before:transition-all
                 before:duration-500
-                before:z-[-1]
+                before:z-[-2]
                 
 
                 hover:before:text-[rgb(187,0,0)]
@@ -55,7 +55,7 @@ const ColorFullLayeredMenu = () => {
                 after:left-0
                 after:transition-all
                 after:duration-700
-                after:z-[-2]
+                after:z-[-1]
                 
 
                 hover:after:text-[rgb(0,178,187)]

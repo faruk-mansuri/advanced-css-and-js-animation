@@ -79,5 +79,15 @@ export default {
     require('tailwindcss-animate'),
     // require('tailwindcss-3d')({ legacy: true }),
     require('@xpd/tailwind-3dtransforms'),
+    function ({ addUtilities }) {
+      addUtilities({
+        '.clip-circle': {
+          clipPath: 'circle(150px at 80% 20%)',
+        },
+        '.hover-clip-circle': {
+          clipPath: 'circle(300px at 80% -20%)',
+        },
+      });
+    },
   ],
 };
