@@ -4,6 +4,16 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      keyframes: {
+        social_links: {
+          '0%': { left: '-110%', top: '90%' },
+          '50%': { left: '15%', top: '-50%' },
+          '100%': { left: '-10%', top: '-20%' },
+        },
+      },
+      animation: {
+        social_links_animation: 'social_links 0.7s 1 forwards',
+      },
       transitionDelay: {
         1200: '1200ms',
       },
