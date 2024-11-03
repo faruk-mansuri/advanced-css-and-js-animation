@@ -3,9 +3,10 @@ import ButtonLayout from './chapters/02-Button-Effect';
 import ImageEffectLayout from './chapters/03-image-effect';
 import MenuEffectLayout from './chapters/04-menu-effect';
 import CardEffectLayout from './chapters/05-card-effect';
-import CSSAnimationEffects from './chapters/08-css-animations-effects';
 // import CSSTransformLayout from './chapters/06-css-transforms';
 // import CSSAnimationAndKeyframes from './chapters/07-css-animation-and-keyframes';
+import CSSAnimationEffects from './chapters/08-css-animations-effects';
+import ClipPathLayout from './chapters/09-css-clip-path-property';
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
       <MenuEffectLayout />
       <CardEffectLayout />*/}
       {/* <CSSTransformLayout /> */}
-      {/* <CSSAnimationAndKeyframes /> */}
-      <CSSAnimationEffects />
+      {/* <CSSAnimationAndKeyframes /> 
+      <CSSAnimationEffects />*/}
+      <ClipPathLayout />
     </div>
   );
 };
