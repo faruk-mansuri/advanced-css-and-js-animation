@@ -7,6 +7,7 @@ import CardEffectLayout from './chapters/05-card-effect';
 // import CSSAnimationAndKeyframes from './chapters/07-css-animation-and-keyframes';
 import CSSAnimationEffects from './chapters/08-css-animations-effects';
 import ClipPathLayout from './chapters/09-css-clip-path-property';
+import JavascriptAnimationEffect from './chapters/10-javascript-animation-effect';
 
 const App = () => {
   return (
@@ -14,11 +15,12 @@ const App = () => {
       {/* <ButtonLayout />
       <ImageEffectLayout />
       <MenuEffectLayout />
-      <CardEffectLayout />*/}
+      <CardEffectLayout />
       {/* <CSSTransformLayout /> */}
-      {/* <CSSAnimationAndKeyframes /> 
-      <CSSAnimationEffects />*/}
-      <ClipPathLayout />
+      {/* <CSSAnimationAndKeyframes />
+      <CSSAnimationEffects />
+      <ClipPathLayout /> */}
+      <JavascriptAnimationEffect />
     </div>
   );
 };
