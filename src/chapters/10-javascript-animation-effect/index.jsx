@@ -40,8 +40,8 @@ const JavascriptAnimationEffect = () => {
         <VideoSlider />
         <CoolGlitchEffect />
         <SplitScreenOnScroll />
-        <ToggleActionMenu />*/}
-        <NineDotsToggle />
+        <ToggleActionMenu />
+        <NineDotsToggle />*/}
       </div>
     </div>
   );
