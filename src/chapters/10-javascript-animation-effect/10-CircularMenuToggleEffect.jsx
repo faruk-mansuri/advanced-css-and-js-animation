@@ -141,21 +141,5 @@ const Wrapper = styled.div`
     top: 0;
     transform: translate(-50%, -50%) rotate(calc(-360deg / 6 * var(--index)));
   }
-
-  /* .content.active .menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .menu li {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-  } */
 `;
 export default CircularMenuToggleEffect;
